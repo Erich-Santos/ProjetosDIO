@@ -1,7 +1,7 @@
 # Modelo Relacional - Gestão de Oficina Mecânica
 
 ## Descrição Breve
-Este projeto apresenta a modelagem de dados (diagrama EER e modelo lógico) para um sistema de controle e gerenciamento de Ordens de Serviço (OS) em uma oficina mecânica. O foco da arquitetura é garantir a integridade das regras de negócio, a precisão dos cálculos financeiros e a manutenção eficiente do histórico de veículos dos clientes, estruturando uma base sólida para a administração e análise dos dados da oficina.
+Este projeto apresenta a modelagem de dados (diagrama ER e modelo lógico) para um sistema de controle e gerenciamento de Ordens de Serviço (OS) em uma oficina mecânica. O foco da arquitetura é garantir a integridade das regras de negócio, a precisão dos cálculos financeiros e a manutenção eficiente do histórico de veículos dos clientes, estruturando uma base sólida para a administração e análise dos dados da oficina.
 
 ---
 
