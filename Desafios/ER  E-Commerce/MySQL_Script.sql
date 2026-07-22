@@ -523,11 +523,11 @@ WITH sem_estoque as (
     from produto pr
     LEFT JOIN produto_estoque pe on pr.idProduto = pe.PE_idProduto
     WHERE pe.PE_idEstoque is null
-)
+) -- Cruza produto com estoque para saber quem não está lá 
 SELECT se.Produto 
 FROM sem_estoque se
 LEFT JOIN  produto_ex px on se.se_idProduto = px.PX_idProduto
-WHERE px.PX_idVendedor is null;
+WHERE px.PX_idVendedor is null; -- Pega quem sobrou para saber quem não é vendido por terceiro
 
 -- 18. Auditoria de Preços: Quais produtos (nome) foram vendidos em algum pedido por 
 -- um preco_unitario diferente do valor que está cadastrado atualmente na tabela 
